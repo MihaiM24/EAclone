@@ -1,0 +1,32 @@
+@import 'color';
+.title{
+    color: $primary-black-color;
+    font-size: 40px;
+    text-align: center;
+    font-style: Verdana;
+}
+.FeaturedGames{
+    background-color: $primary-white-color;
+    display: flex;
+    flex-direction: column;
+}
+.gamesTOP{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row wrap;
+    
+    
+}
+.gamesBOT{
+    display: flex;
+    flex-direction: row wrap;
+}
+.gamebox{
+    padding: 14px;
+}
+
+.pic1{
+    height: 350px;
+    width: 350px;
+}

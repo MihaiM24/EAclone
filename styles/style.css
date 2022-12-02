@@ -1,0 +1,36 @@
+/* USE THESE COLORS OVER THE FILE */
+.title {
+  color: #161616;
+  font-size: 40px;
+  text-align: center;
+  font-style: Verdana;
+}
+
+.FeaturedGames {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.gamesTOP {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row wrap;
+}
+
+.gamesBOT {
+  display: flex;
+  flex-direction: row wrap;
+}
+
+.gamebox {
+  padding: 14px;
+}
+
+.pic1 {
+  height: 350px;
+  width: 350px;
+}
+
+/*# sourceMappingURL=style.css.map */
