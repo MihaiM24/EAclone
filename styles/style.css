@@ -4,19 +4,55 @@
   font-size: 40px;
   text-align: center;
   font-style: Verdana;
+  margin: 0 auto;
 }
 
 .FeaturedGames {
   background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+}
+
+.latestUpdates {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: absolute;
+  width: 100%;
+}
+
+.updatesTop {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+  border-bottom: 3px solid #EAEAEA;
+  padding-bottom: 10px;
+}
+
+.eaBar {
+  font-size: 30px;
+  color: #161616;
+  padding-left: 15px;
+  border-right: 3px solid #EAEAEA;
+  padding-right: 15px;
+}
+
+.eaBar2 {
+  font-size: 30px;
+  color: #161616;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .gamesTOP {
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: row wrap;
+  flex-direction: flex wrap;
+  align-self: center;
 }
 
 .gamesBOT {
@@ -31,6 +67,37 @@
 .pic1 {
   height: 350px;
   width: 350px;
+}
+
+.LatestGamesButton {
+  margin: 0 auto;
+  display: inline-block;
+  cursor: pointer;
+  font-family: Georgia;
+  font-size: 21px;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+.LatestUpdatesButton {
+  display: flex;
+  justify-content: center;
+}
+
+.myButton {
+  display: inline-block;
+  cursor: pointer;
+  color: #161616;
+  font-family: Georgia;
+  font-size: 21px;
+  padding: 12px 24px;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  border-radius: 4px;
+}
+
+.containerCenter {
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
